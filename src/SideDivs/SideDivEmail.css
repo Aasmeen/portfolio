@@ -1,0 +1,30 @@
+.email-div {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  right: 0;
+}
+  
+.email {
+  color: #a8b2d1;
+  text-decoration: none;
+  transition: transform 0.2s;
+  display: inline-block;
+  position: relative;
+}
+  
+.email:hover {
+  color: #64feda;
+  transform: translateY(-3px);
+}
+  
+.line {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 150px;
+  background-color:#a8b2d1;
+  right: 75px;
+  bottom: 0;
+}

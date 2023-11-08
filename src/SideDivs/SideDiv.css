@@ -1,0 +1,9 @@
+.side-divs {
+  width: 150px;
+  height: 370px;
+  writing-mode: vertical-lr;
+  font-size: medium;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}

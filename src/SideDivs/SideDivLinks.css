@@ -1,0 +1,39 @@
+.link-div {
+  left: 0;
+  height: 290px;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 57px;
+  padding-top: 43px;
+}
+
+.list-element {
+  padding: 10px;
+}
+
+.icon {
+  color: #a8b2d1;
+  transition: transform 0.2s;
+  display: inline-block;
+  position: relative;
+}
+
+.icon:hover {
+  color: #64feda;
+  transform: translateY(-3px);
+}
+
+.link-list::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 150px;
+  background-color:#a8b2d1;
+  left: 75px;
+  bottom: 0;
+}
+  
