@@ -13,7 +13,7 @@
   height: 1px;
   width: 500px;
   writing-mode: horizontal-tb;
-  margin-top: 20px;
+  margin-top: 24px;
   margin-left: 20px;
 }
 
@@ -54,4 +54,23 @@
     padding-left: 0px; /* End position */
     transform: translateX(6px); /* End position */
   }
+}
+
+.view-resume-div {
+  padding: 25px 25px 0 0;
+  text-align: end;
+}
+
+.view-resume-div button {
+  padding: 15px;
+  background-color: inherit;
+  color: #64feda;
+  border: 1px solid #64feda;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.view-resume-div button:hover {
+  transform: translateX(-3px) translateY(-3px);
+  box-shadow: 3px 3px #64feda;
 }

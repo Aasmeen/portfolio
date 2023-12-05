@@ -19,11 +19,14 @@
   right: 150px;
 }
 
-.header li {
+.headerLink {
   padding: 10px 25px;
+  color: #d6dff8;
+  font-size: medium;
+  text-decoration: none;
 }
 
-.header li:hover {
+.headerLink:hover {
   color: #64feda;
   transform: translateY(-2px);
 }

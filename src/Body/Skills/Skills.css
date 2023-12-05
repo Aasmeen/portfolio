@@ -13,7 +13,7 @@
   height: 1px;
   width: 500px;
   writing-mode: horizontal-tb;
-  margin-top: 17px;
+  margin-top: 23px;
   margin-left: 20px;
 }
 
@@ -56,11 +56,17 @@
 }
 
 .javascript {
-  border: 1px solid #f7e027;
+  border-left: 1px solid #f7e027;
+  border-top: 1px solid #f7e027;
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 
 .typescript {
-  border: 1px solid #3a7cc8;
+  border-left: 1px solid #3a7cc8;
+  border-top: 1px solid #3a7cc8;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 .reactjs {
@@ -86,7 +92,10 @@
 }
 
 .fastapi {
-  border: 1px solid #009688;
+  border-left: 1px solid #009688;
+  border-top: 1px solid #009688;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 .java {
@@ -97,7 +106,10 @@
 }
 
 .c {
-  border: 1px solid #6a9dd3;
+  border-left: 1px solid #6a9dd3;
+  border-top: 1px solid #6a9dd3;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 
 .postgresql {
